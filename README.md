@@ -3,7 +3,7 @@
 
 A **supportive  chatbot** designed to provide mental health assistance, offering **calm conversations, guided meditation, and stress relief techniques**. This chatbot is built using **Hugging Face Transformers & Streamlit**, with a soothing UI for a better user experience.
 
-![Mental Healthcare Chatbot](https://cdn-icons-png.flaticon.com/512/4727/4727429.png)
+
 
 ---
 
