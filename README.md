@@ -11,8 +11,6 @@ While it does not replace professional therapy, it offers accessible, AI-powered
 
 This chatbot uses Natural Language Processing (NLP) and is built using Hugging Face Transformers (DistilBERT), Streamlit for UI, and PyTorch for deep learning.
 
-📌 GitHub Repository: Mental Healthcare Chatbot
-📌 YouTube Demo Video: Watch Here
 
 🚀 Features
 
@@ -92,8 +90,13 @@ Set app.py as the main execution file.
 
 This project is open-source under the MIT License.
 
-📌 YouTube Demo Video
-[watch demo](https://youtu.be/U54AaKL5rFA)
+
+Deliverables: A PDF report that Included Links to the code and demo video 3 -5 Minutes
+
+GitHub Repository: Mental Healthcare Chatbot
+ YouTube Demo Video:
+https://youtu.be/U54AaKL5rFA
+
 
 
 
