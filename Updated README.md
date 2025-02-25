@@ -35,3 +35,14 @@ A **supportive  chatbot** designed to provide mental health assistance, offering
 ```bash
 git clone https://github.com/Esther-Mbanzabigwi/summative_Mental_chatbott.git
 cd mental-health-chatbot
+
+
+###**2️⃣ Deploy via Ngrok**
+
+!streamlit run app.py &>/dev/null &
+from pyngrok import ngrok
+public_url = ngrok.connect("8501", "http")
+print(f"Chatbot is live at: {public_url}")
+
+**your chatbot is live on**
+🚀 Your chatbot is live at: NgrokTunnel: "https://170c-34-132-69-254.ngrok-free.app" -> "http://localhost:8501"
