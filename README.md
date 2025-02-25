@@ -11,6 +11,9 @@ While it does not replace professional therapy, it offers accessible, AI-powered
 
 This chatbot uses Natural Language Processing (NLP) and is built using Hugging Face Transformers (DistilBERT), Streamlit for UI, and PyTorch for deep learning.
 
+📌 GitHub Repository: Mental Healthcare Chatbot
+📌 YouTube Demo Video: Watch Here
+
 🚀 Features
 
 - AI-Powered Mental Health Support – Understands and responds empathetically.- Relaxing UI & Calming Theme – Uses soft colors and a welcoming design.- Background Music for Relaxation  – Helps create a soothing environment.- Guided Meditation Feature  – Plays calming audio for mindfulness exercises.- Breathing Exercises  – Provides simple relaxation techniques.- AI Affirmations 💙 – Encouraging messages for users feeling down.
