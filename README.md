@@ -36,7 +36,7 @@ A **supportive  chatbot** designed to provide mental health assistance, offering
 git clone https://github.com/Esther-Mbanzabigwi/summative_Mental_chatbott.git
 cd mental-health-chatbot
 
-
+---
 ###**2️⃣ Deploy via Ngrok**
 
 !streamlit run app.py &>/dev/null &
