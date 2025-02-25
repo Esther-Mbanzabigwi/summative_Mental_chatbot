@@ -3,7 +3,11 @@
 
 📌 Overview
 
-The Mental Healthcare Chatbot is an AI-powered assistant designed to provide empathetic conversations, mental health support, stress management tips, and guided relaxation exercises. While it does not replace professional therapy, it offers accessible, AI-powered support for individuals experiencing stress, anxiety, or depression.
+The Mental Healthcare Chatbot is an AI-powered assistant designed to provide empathetic conversations, 
+mental health support, 
+stress management tips, 
+and guided relaxation exercises. 
+While it does not replace professional therapy, it offers accessible, AI-powered support for individuals experiencing stress, anxiety, or depression.
 
 This chatbot uses Natural Language Processing (NLP) and is built using Hugging Face Transformers (DistilBERT), Streamlit for UI, and PyTorch for deep learning.
 
@@ -86,8 +90,7 @@ Set app.py as the main execution file.
 This project is open-source under the MIT License.
 
 📌 YouTube Demo Video
-
- Watch the Demo
+[watch demo](https://youtu.be/U54AaKL5rFA)
 
 
 
