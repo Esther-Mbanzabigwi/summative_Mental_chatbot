@@ -1,101 +1,53 @@
+**About Dataset**
+A dataset containing basic conversations, mental health FAQ, classical therapy conversations, and general advice provided to people suffering from anxiety and depression.
 
- Mental Healthcare Chatbot - README
+This dataset can be used to train a model for a chatbot that can behave like a therapist in order to provide emotional support to people with anxiety & depression.
 
-📌 Overview
+The dataset contains intents. An “intent” is the intention behind a user's message. For instance, If I were to say “I am sad” to the chatbot, the intent, in this case, would be “sad”. Depending upon the intent, there is a set of Patterns and Responses appropriate for the intent. Patterns are some examples of a user’s message which aligns with the intent while Responses are the replies that the chatbot provides in accordance with the intent. Various intents are defined and their patterns and responses are used as the model’s training data to identify a particular intent.
 
-The Mental Healthcare Chatbot is an AI-powered assistant designed to provide empathetic conversations, 
-mental health support, 
-stress management tips, 
-and guided relaxation exercises. 
-While it does not replace professional therapy, it offers accessible, AI-powered support for individuals experiencing stress, anxiety, or depression.
+Usability
+9.38
 
-This chatbot uses Natural Language Processing (NLP) and is built using Hugging Face Transformers (DistilBERT), Streamlit for UI, and PyTorch for deep learning.
-
-
-🚀 Features
-
-- AI-Powered Mental Health Support – Understands and responds empathetically.- Relaxing UI & Calming Theme – Uses soft colors and a welcoming design.- Background Music for Relaxation  – Helps create a soothing environment.- Guided Meditation Feature  – Plays calming audio for mindfulness exercises.- Breathing Exercises  – Provides simple relaxation techniques.- AI Affirmations 💙 – Encouraging messages for users feeling down.
-
-📌 Technologies Used
-
-Python (3.8+)
-
-Hugging Face Transformers (DistilBERT)
-
-PyTorch / TensorFlow
-
-Streamlit (UI Framework)
-
-NLTK (Text Processing)
-
-Ngrok (For Public Deployment)
-
-Docker (For Containerized Deployment)
-
-🛠️ Installation & Setup
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/your-repo/mental-health-chatbot.git
-cd mental-health-chatbot
-
-2️⃣ Install Dependencies
-
-pip install -r requirements.txt
-
-3️⃣ Run the Chatbot
-
-streamlit run app.py
-
- Your chatbot will be available at: http://localhost:8501
-
- Model & Dataset
-
-Model: Fine-tuned DistilBERT for mental health intent classification.
-
-Dataset: Based on mental health queries (stress, anxiety, depression).
-
-Training: Preprocessed with NLTK, Tokenization, and Fine-Tuning.
-
- User Interface (UI) Enhancements
-
-Soft soothing colors for mental relaxation 
-
-Welcoming chatbot avatar & friendly messages 
-
-Breathing GIF for stress relief 
-
-Real-time chatbot typing effect 
-
-🚀 Deployment Options
-
-1️⃣ Deploy Locally
-
-streamlit run app.py
-
-2️⃣ Deploy via Ngrok
-
-!streamlit run app.py &>/dev/null &
-from pyngrok import ngrok
-public_url = ngrok.connect("8501")
-print(f"Chatbot is live at: {public_url}")
-
-3️⃣ Deploy on Hugging Face Spaces
-
-Upload the app.py, model, and requirements.txt to a Hugging Face Space.
-
-Set app.py as the main execution file.
-
-📜 License
-
-This project is open-source under the MIT License.
+License
+Data files © Original Authors
 
 
-Deliverables: A PDF report that Included Links to the code and demo video 3 -5 Minutes
+Expected update frequency
+Annually
 
-GitHub Repository: Mental Healthcare Chatbot
- YouTube Demo Video:
-https://youtu.be/U54AaKL5rFA
+Tags
+Text
+NLP
+Deep Learning
+Mental Health
+json
+intents.json(39.35 kB)
+About this file
+
+Suggest Edits
+This file contains the conversations in JSON format.
+
+"root":{1 item
+"intents":[80 items
+0:{...}3 items
+1:{...}3 items
+2:{...}3 items
+3:{...}3 items
+4:{...}3 items
+5:{...}3 items
+6:{...}3 items
+7:{...}3 items
+8:{...}3 items
+9:{...}3 items
+10:{...}3 items
+11:{...}3 items
+12:{...}3 items
+13:{...}3 items
+14:{...}3 items
+15:{...}3 items
+16:{...}3 items
+17:{...}3 items
+18:{...}3 items
 
 
 
